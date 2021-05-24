@@ -1,0 +1,102 @@
+body {  
+    background: none !important;
+}
+
+container {
+    /* Position */
+    position: absolute;
+    top: 43%; /* Top og ned */
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+
+    background-color: rgb(49, 48, 48);
+    border-radius: 3px;
+    width: 85vw;
+    height: 500px;
+    box-shadow: 0px 0px 32px -2px #000000;
+    text-align: center;
+}
+
+container b {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+container p {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+container hr {
+    opacity: 1 !important;
+    background-color: #fff;
+}
+
+container button {
+
+    max-height: 80px;
+    min-height: 40px;
+
+    max-width: 400px;
+    min-width: 200px;
+
+    transition: 0.3s;
+
+    margin-top: 2%;
+
+    background-color: #5e5e5e;
+    border: 2px solid black;
+    border-radius: 4px;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+container button:hover {
+    background-color: #7c7c7c;
+}
+
+container button:focus {
+    outline: 0;
+}
+
+container input {
+    background-color: #7c7c7c;
+    border-radius: 5px;
+    width: 25%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+container input:focus {
+    outline: 0;
+}
+
+.swal-modal {
+    background-color: #5e5e5e !important;
+    outline: none;
+}
+
+.swal-title,
+.swal-text {
+    color: #fff !important;
+}
+
+.swal-button {
+    background-color: #8a8a8a !important;
+    transition: 0.3s;
+}
+
+.swal-button:hover {
+    background-color: #b4b4b4 !important;
+}
+
+.swal-icon--success:after, .swal-icon--success:before {
+    content: none !important;
+}
+
+.swal-icon--success__hide-corners { 
+    background-color: rgba(255, 255, 255, 0) !important;
+}

@@ -1,0 +1,116 @@
+:root {
+    --clr-header: rgb(81, 116, 131);
+    --clr-background: rgb(76, 93, 100);
+    --clr-input: rgb(77, 89, 97);
+    --clr-submit: rgb(77, 89, 97);
+    --clr-submithover: rgb(81, 116, 131);
+}
+
+body {  
+    background: none !important;
+}
+
+.main-header {
+    border-top: solid 5vh var(--clr-header);
+    border-radius: 0.5vh;
+    box-shadow: 0px 8px 15px -6px rgba(0,0,0,0.4);
+}
+
+.main-header .header-text {
+    /* Position */
+    position: absolute;
+    top: 5%; /* Top og ned */
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+    font-size: 3vh;
+}
+
+.main-background {
+    /* Position */
+    position: absolute;
+    top: 50%; /* Top og ned */
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+    width: 35vh;
+    height: 40vh;
+    background-color: var(--clr-background);
+    border-radius: 0.5vh;
+}
+
+.list-input {
+    /* Position */
+    position: absolute;
+    top: 18vh; /* Top og ned */
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+}
+
+.list-input .input-reg {
+    margin-top: 2vh;
+    background-color: var(--clr-input);
+    border: solid 0.3vh black;
+    height: 4vh;
+    width: 18vh;
+    border-radius: 0.6vh;
+}
+
+.list-input .input-reg:focus {
+    outline: 0;
+}
+
+::placeholder {
+    font-size: 1.5vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.main-background .submit {
+    width: 18vh;
+    height: 4vh;
+    background-color: var(--clr-submit);
+    border: solid 0.3vh black;
+    border-radius: 0.5vh;
+    font-size: 1.5vh;
+    transition: 0.3s;
+}
+
+.main-background .submit:hover {
+    background-color: var(--clr-submithover);
+}
+
+.main-background .submit:focus {
+    outline: 0;
+}
+
+.main-background .madeby {
+    /* Position */
+    position: absolute;
+    top: 37vh; /* Top og ned */
+    left: 0.5vh;
+}
+
+.swal-modal {
+    background-color: #5e5e5e !important;
+    outline: none;
+}
+
+.swal-title,
+.swal-text {
+    color: #fff !important;
+}
+
+.swal-button {
+    background-color: #8a8a8a !important;
+    transition: 0.3s;
+}
+
+.swal-button:hover {
+    background-color: #b4b4b4 !important;
+}
+
+.swal-icon--success:after, .swal-icon--success:before {
+    content: none !important;
+}
+
+.swal-icon--success__hide-corners { 
+    background-color: rgba(255, 255, 255, 0) !important;
+}

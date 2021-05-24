@@ -1,0 +1,57 @@
+<html>
+<head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="js/javascript.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+        <div class="container">
+                <img id="LukContainer" src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/43865/cross-mark-emoji-clipart-md.png" style="height:40px;width:auto;">
+
+                <div class="repairCar boxes">
+                        <h3 style="top: 4%;">Reparer</h3>
+                        <br>
+                        <img style="max-height: 220px; min-height: 210px; max-width: 18vw; min-width: 13vw;" src="https://i.ibb.co/6m4zMMr/repair-removebg-preview.png" alt="">
+                        <button id="RepairBuy">Reparer</button>
+                </div>
+
+                <div class="washCar boxes">
+                        <h3 style="top: 4%;">Vask</h3>
+                        <br>
+                        <img style="max-height: 230px; min-height: 210px; max-width: 19vw; min-width: 14vw;" src="https://i.ibb.co/4Md4wKw/606-6062823-carwash-icon-icon-car-wash-png-transpa.png" alt="">
+                        <button id="WashBuy">Vask</button>
+                </div>
+
+                <div class="changeColor boxes">
+                        <h3 style="top: 4%;">Maling</h3>
+                        <br>
+                        <img style="max-height: 220px; min-height: 210px; max-width: 18vw; min-width: 13vw;" src="https://i.ibb.co/1TkwgDd/car-paint-logo-18099-25-2.png" alt="">
+                        <button id="changecolor">Maling</button>
+                </div>  
+        </div>
+
+        <form class="column">
+                <a href=""><img id="LukColumn" src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/43865/cross-mark-emoji-clipart-md.png" style="height:40px; width:auto; top: 10%; left: 94%;"></a>
+                <br>
+                <label for="colorWell">Primær farve:</label>
+                <input type="color" value="#ff0000" id="primary">
+                <br><br>
+                <label for="colorWell">Sekundær farme:</label>
+                <input type="color" value="#ff0000" id="secondary">
+                <br><br>
+                <button id="ColorChanged">Færdig</button>
+        </form>
+
+</body>
+</html>

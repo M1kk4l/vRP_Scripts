@@ -1,0 +1,181 @@
+body {
+    background: none !important;
+}
+
+.container {
+    /* Position */
+    position: absolute;
+    top: 43%; /* Top og ned */
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+    
+    max-height: 500px;
+    min-height: 490px;
+
+    max-width: 85vw;
+    min-width: 80vw;
+
+    background-color: rgb(151, 151, 151);
+
+    border-radius: 5px;
+}
+
+.boxes {
+    top: 50%; /* Top og ned */
+
+    border-radius: 5px;
+
+    max-height: 340px;
+    min-height: 330px;
+
+    max-width: 15vw;
+    min-width: 10vw;
+
+
+    background-color: rgb(85, 85, 85);
+}
+
+.washCar {
+    /* Position */
+    position: absolute;
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+}
+
+.repairCar {
+    /* Position */
+    position: absolute;
+    left: 20%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+}
+
+.changeColor {
+    /* Position */
+    position: absolute;
+    left: 80%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+}
+
+.boxes p {
+    text-align: center;
+
+    color: white;
+}
+
+.boxes button {  
+    /* Position */
+    position: absolute;
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+
+    max-height: 80px;
+    min-height: 40px;
+
+    max-width: 18vw;
+    min-width: 8vw;
+
+    transition: 0.3s;
+
+    margin-top: 2%;
+
+    background-color: #868686;
+    border: 2px solid black;
+    border-radius: 4px;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+.boxes button:hover {
+    background-color: #b3b3b3;
+}
+
+.boxes button:focus {
+    outline: 0;
+}
+
+.boxes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxes h3 {  
+    /* Position */
+    position: absolute;
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+
+    font-size: 1.5vw;
+}
+
+#LukColumn {
+    /* Position */
+    position: absolute;
+    top: 4%;
+    left: 98%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+}
+
+#LukContainer {
+    /* Position */
+    position: absolute;
+    top: 4%;
+    left: 98%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+}
+
+.column {
+    /* Position */
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+
+    max-height: 15vw;
+    min-height: 11vw;
+
+    max-width: 28vw;
+    min-width: 25vw;
+
+    background: #313131;
+    border-radius: 5px;
+
+    text-align: center;
+
+    color: white;
+}
+
+.column button {  
+    /* Position */
+    position: absolute;
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+
+    max-height: 80px;
+    min-height: 40px;
+
+    max-width: 18vw;
+    min-width: 8vw;
+
+    transition: 0.3s;
+
+    margin-top: 2%;
+
+    background-color: #868686;
+    border: 2px solid black;
+    border-radius: 4px;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+.column button:hover {
+    background-color: #b3b3b3;
+}
+
+.column button:focus {
+    outline: 0;
+}
