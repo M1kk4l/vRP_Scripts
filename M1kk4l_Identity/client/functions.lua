@@ -1,9 +1,9 @@
 function SetDisplay(bool)
-    show = bool
     SetNuiFocus(bool, bool)
     SendNUIMessage({
         type = "ui",
         status = bool,
+        resource = GetCurrentResourceName(),
     })
 end
 

@@ -1,9 +1,9 @@
 :root {
-    --clr-header: rgb(81, 116, 131);
-    --clr-background: rgb(76, 93, 100);
-    --clr-input: rgb(77, 89, 97);
-    --clr-submit: rgb(77, 89, 97);
-    --clr-submithover: rgb(81, 116, 131);
+    --clr-header: rgb(168, 168, 168);
+    --clr-background: rgb(136, 136, 136);
+    --clr-input: rgb(191, 191, 191);
+    --clr-submit: rgb(191, 191, 191);
+    --clr-submithover: rgb(179, 179, 179);
 }
 
 body {  
@@ -11,18 +11,20 @@ body {
 }
 
 .main-header {
-    border-top: solid 5vh var(--clr-header);
-    border-radius: 0.5vh;
+    border-top: solid 7vh var(--clr-header);
+    border-radius: 20.5px;
     box-shadow: 0px 8px 15px -6px rgba(0,0,0,0.4);
 }
 
 .main-header .header-text {
     /* Position */
     position: absolute;
-    top: 5%; /* Top og ned */
+    top: 6.5%; /* Top og ned */
     left: 50%; /* Venstre og ud */
-    transform: translate(-50%, -50%); /* For den til at ceter */
-    font-size: 3vh;
+    transform: translate(-50%, -50%); /* Får den til at ceter */
+    font-size: 5vh;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
 }
 
 .main-background {
@@ -30,28 +32,30 @@ body {
     position: absolute;
     top: 50%; /* Top og ned */
     left: 50%; /* Venstre og ud */
-    transform: translate(-50%, -50%); /* For den til at ceter */
-    width: 35vh;
-    height: 40vh;
+    transform: translate(-50%, -50%); /* Får den til at ceter */
+    width: 45vh;
+    height: 50vh;
     background-color: var(--clr-background);
-    border-radius: 0.5vh;
+    border-radius: 20.5px;
 }
 
 .list-input {
     /* Position */
     position: absolute;
-    top: 18vh; /* Top og ned */
+    top: 25vh; /* Top og ned */
     left: 50%; /* Venstre og ud */
-    transform: translate(-50%, -50%); /* For den til at ceter */
+    transform: translate(-50%, -50%); /* Får den til at ceter */
+    text-align: center;
 }
 
 .list-input .input-reg {
     margin-top: 2vh;
     background-color: var(--clr-input);
-    border: solid 0.3vh black;
-    height: 4vh;
-    width: 18vh;
-    border-radius: 0.6vh;
+    border-radius: 12.5px;
+    border-style: solid;
+    height: 6vh;
+    width: 32vh;
+    border-radius: 12.5px;
 }
 
 .list-input .input-reg:focus {
@@ -59,18 +63,21 @@ body {
 }
 
 ::placeholder {
-    font-size: 1.5vh;
-    color: rgba(0, 0, 0, 0.7);
+    font-size: 2vh;
+    color: rgba(112, 112, 112, 0.70);
+    font-weight: bold;
 }
 
 .main-background .submit {
-    width: 18vh;
-    height: 4vh;
+    width: 21vh;
+    height: 6vh;
     background-color: var(--clr-submit);
-    border: solid 0.3vh black;
-    border-radius: 0.5vh;
-    font-size: 1.5vh;
+    border: solid 0.3vh rgb(112, 112, 112);
+    border-radius: 12.5px;
+    font-size: 2.8vh;
     transition: 0.3s;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
 }
 
 .main-background .submit:hover {
@@ -79,13 +86,6 @@ body {
 
 .main-background .submit:focus {
     outline: 0;
-}
-
-.main-background .madeby {
-    /* Position */
-    position: absolute;
-    top: 37vh; /* Top og ned */
-    left: 0.5vh;
 }
 
 .swal-modal {
